@@ -3,3 +3,13 @@
 ################################################################################
 
 /src/Entities2/bin/Debug/netstandard1.6
+/src/Entities2/obj/Debug/netstandard1.6
+/src/test-react/bin/Debug/netcoreapp1.0
+/src/test-react/node_modules/.bin
+/src/test-react/node_modules
+/src/test-react/obj/Debug/netcoreapp1.0
+/WebApplication1
+/.vs/test-spa/v14/.suo
+/.vs
+*.user
+/src/test-react/wwwroot/lib/react
