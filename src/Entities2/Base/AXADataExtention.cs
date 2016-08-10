@@ -2,6 +2,8 @@
 {
     public class AXADataExtention<T> : IDataExtention<T>
     {
-        string ReferenceMacao;
+        public int Id;
+
     }
+
 }

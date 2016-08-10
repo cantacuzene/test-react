@@ -1,14 +1,25 @@
 {
   "compilerOptions": {
-    "noImplicitAny": false,
-    "noEmitOnError": true,
-    "removeComments": false,
+    "outDir": "./dist/",
     "sourceMap": true,
-    "target": "es5"
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react"
   },
   "files": [
     "./typings/index.d.ts",
-    "./src/components/Hello.tsx",
-    "./src/index.tsx"
+    "./src/components/react/Hello.tsx",
+    "./src/app-react.tsx",
+    "./src/app-angular.ts",
+    "./src/components/angular/app.component.ts",
+    "./src/components/angular/app.module.ts"
+  ],
+  "exclude": [
+    "node_modules","typings"
   ]
 }
