@@ -35,6 +35,7 @@
 
   },
   "scripts": {
+    "webpack" : "webpack",
     "postinstall": "typings install"
   }
 }
